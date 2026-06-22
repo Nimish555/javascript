@@ -34,3 +34,7 @@ console.log(typeof b);
 console.log(Number(null));
 console.log(Number(true));
 console.log(Number(false));
+
+console.log(Boolean("hii"));
+console.log(Boolean());
+
