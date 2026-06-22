@@ -86,5 +86,9 @@ let obj = {
     age  : 54
 }
 
-obj.name = "rohan";
+// obj.name = "rohan";
 console.log(obj.name);
+
+ let obj2 = obj;
+ obj2.name = "Rohan";
+ console.log(obj);
