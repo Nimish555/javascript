@@ -26,15 +26,24 @@ console.log(2**4);
 // let b = Number(a);
 // console.log(b);
 
-let a = 45;
-let b = String(a);
-console.log(typeof b);
+// let a = 45;
+// let b = String(a);
+// console.log(typeof b);
 
 
-console.log(Number(null));
-console.log(Number(true));
-console.log(Number(false));
+// console.log(Number(null));
+// console.log(Number(true));
+// console.log(Number(false));
 
-console.log(Boolean("hii"));
-console.log(Boolean());
+// console.log(Boolean("hii"));
+// console.log(Boolean());
+
+// console.log(null == undefined);
+
+console.log(null>=0);
+console.log(null<=0);
+console.log(null>0);
+console.log(null<0);
+
+console.log("Rohit" > "mohit");
 
