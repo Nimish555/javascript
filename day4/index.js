@@ -1,9 +1,9 @@
 //operators
-console.log(2+1);
-console.log(2-1);
-console.log(2*1);
-console.log(2/1);
-console.log(2**4);
+// console.log(2+1);
+// console.log(2-1);
+// console.log(2*1);
+// console.log(2/1);
+// console.log(2**4);
 
 //assignment
 // let x = 20;
@@ -40,21 +40,21 @@ console.log(2**4);
 
 // console.log(null == undefined);
 
-console.log(null>=0);
-console.log(null<=0);
-console.log(null>0);
-console.log(null<0);
+// console.log(null>=0);
+// console.log(null<=0);
+// console.log(null>0);
+// console.log(null<0);
 
-console.log("Rohit" > "mohit");
+// console.log("Rohit" > "mohit");
 
 //agar diffrenrt type hai to to pehle number mein cionvert honge , fir comaprison hoga
-console.log(null>"");
+// console.log(null>"");
 
 
-//loop
-for(let i = 0 ; i<5 ; i++){
-    console.log(i);
-}
+// //loop
+// for(let i = 0 ; i<5 ; i++){
+//     console.log(i);
+// }
 
 //do while
 // let i = 0;
@@ -88,7 +88,13 @@ for(let i = 0 ; i<5 ; i++){
 // console.log(typeof b);
 // console.log(typeof a);
 
-let a = new Number(23);
-let b = new Number(23);
-console.log(a==b);
-console.log(a.valueOf() == b.valueOf());
+// let a = new Number(23);
+// let b = new Number(23);
+// console.log(a==b);
+// console.log(a.valueOf() == b.valueOf());
+
+console.log(Boolean(10));
+
+console.log(Math.abs(-4));
+console.log(Math.PI);
+console.log(Math.sqrt(25));
