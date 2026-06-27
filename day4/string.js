@@ -39,7 +39,7 @@ let s = "go go go go";
 console.log(str.toUpperCase());
 console.log(str.trim());
 console.log(str.slice(1,3));
-console.log(str.replace("min" , "king"));
+console.log(str.replace("m" , "k"));
 console.log(s.replaceAll("go" , "min"));
 console.log(str.concat(s));
 console.log(str.charAt(2));
@@ -51,7 +51,14 @@ let arr = str.split("");
 console.log(arr);
 let b = "I Love Javascipt";
 console.log(b.split(" "));
+console.log()
 console.log(str.split(" " , 2));
+
+
+
+//practice-----------
+let input = prompt("Enter the Username");
+console.log("@"+input+input.length);
 
  
 // let a = Number(prompt("enter the number"));
