@@ -14,13 +14,16 @@ console.log(arr.reverse());
 
 //splice--------
 
-console.log(arr1.splice(2,3));
+// console.log(arr1.splice(2,3));
+console.log(arr1.splice(2,69,55));
 console.log(arr1);
 console.log(arr);
 
 
 console.log(arr.length);
 
-let std = [
+let std = ["Thor" , "Spiderman" , "hulk" , "Ranger" , "Loki"];
+for(let i = 0 ; i<std.length ; i++){
+    console.log(std[i]);
+}
 
-]
