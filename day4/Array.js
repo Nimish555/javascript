@@ -76,6 +76,19 @@ console.log(num1.splice(2 , 1 , 101));
 //add element-----
 console.log(num1.splice(3 ,0,47));
 
+//practice--------------------------
 
+
+
+
+let array = ["bloomberg" , "Microsoft" , "ibm" , "ola" , "uber"];
+// let rem = array.shift();
+// console.log(`after remove of first element ${array}`);
+
+let rem1 = array.splice(2 , 1 ,"flip");
+console.log(array);
+
+let addd = array.push("Amazon");
+console.log(array);
 
 
