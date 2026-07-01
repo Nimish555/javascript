@@ -56,3 +56,26 @@ function multi(a,b){
 const arrowMul = (a,b) => {
     console.log(a*b);
 };
+
+
+
+let f =  [44 , 58 , 98 , 78 , 56];
+f.forEach((val) => {
+    console.log(val);
+}
+)
+    
+
+let b = ["pune" , "agra" , "delhi" , "mumbai"];
+b.forEach((val , idx) => {
+    console.log(val.toUpperCase() , idx);
+}
+
+) ;
+
+
+ 
+
+
+
+
