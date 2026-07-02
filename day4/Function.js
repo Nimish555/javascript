@@ -101,6 +101,33 @@ let f = p.filter((val) => {
 console.log(f);
 
 
+//filter the stud of greater the marks than 90
+
+let mar  = [44 , 66 , 99 , 98 , 65 , 91 , 90];
+let topper = mar.filter((val) => {
+     return     val > 90;
+});
+console.log(topper);
+
+let less = mar.filter((val) => {
+        return val < 70;
+});
+
+console.log(less);
+
+
+//array of user
+
+let cust =Number(prompt("enter num"));
+let arr = [] ;
+for (let i =0 ; i<cust ; i++){
+    arr[i-1] = i; 
+};
+
+console.log(arr);
+
+
+
 
 
 
