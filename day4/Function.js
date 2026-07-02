@@ -59,11 +59,11 @@ const arrowMul = (a, b) => {
 
 
 
-let f = [44, 58, 98, 78, 56];
-f.forEach((val) => {
-    console.log(val);
-}
-)
+// let f = [44, 58, 98, 78, 56];
+// f.forEach((val) => {
+//     console.log(val);
+// }
+// )
 
 
 let b = ["pune", "agra", "delhi", "mumbai"];
@@ -80,6 +80,25 @@ n.forEach((val) => {
       console.log(val*val);
 }
 );
+
+
+//map function
+let p = [1 , 2 , 3 , 5];
+// let pop = p.map((val) => {
+//     return val * 2 ;
+// });
+
+
+// console.log(p);
+
+
+//filter
+
+let f = p.filter((val) => {
+      return val % 2 == 0;
+});
+
+console.log(f);
 
 
 
